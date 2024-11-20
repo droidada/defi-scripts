@@ -5,7 +5,7 @@ import pandas as pd
 url = 'https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest'
 headers = {
     'Accepts': 'application/json',
-    'X-CMC_PRO_API_KEY': '<API KEY>'
+    'X-CMC_PRO_API_KEY': '<API_KEY>'
 }
 
 session = Session()
